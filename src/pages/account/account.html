@@ -1,0 +1,62 @@
+<!--
+  Generated template for the AccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <div class="logo-tobbar">
+      <img src="../../assets/imgs/logo-home.png">
+</div>
+
+      <ion-buttons class="search-direct" end>
+          <button ion-button icon-only (click)="goToTabsPage3()">
+    
+            <ion-icon name="search"></ion-icon>
+    
+          </button>
+        </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <ion-list>
+        
+      <ion-item>
+          <ion-icon name="person" item-start></ion-icon>
+
+        <span item-start>Acessa sua conta!</span>
+        <button ion-button icon-start clear item-end (click)="goToTabsPage8()">
+          Entrar
+        </button>
+      </ion-item>
+        
+      
+        <ion-item>
+            <ion-icon name="ios-add" item-start></ion-icon>
+
+          <span item-start>Não possui conta?</span>
+          <button ion-button icon-start clear item-end (click)="goToTabsPage8()">
+            Registrar
+          </button>
+        </ion-item>
+      
+        <ion-item>
+          <ion-icon name="ios-book" item-start></ion-icon>
+            Histórico
+        </ion-item>
+      
+          <ion-item>
+            <ion-icon name="leaf" item-start></ion-icon>
+              Herbology
+            <ion-icon name="rose" item-end></ion-icon>
+          </ion-item>
+          
+        </ion-list>
+
+
+</ion-content>
